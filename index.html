@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Shopping</title>
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="./css/core-style.css">
+
+     <!-- Font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header_area">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar" id="essenceNav">
+                <!-- Logo -->
+                <a class="nav-brand" href="index.html">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h1>Shopping</h1>
+                </a>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"></span>
+                </div>
+                <!-- Menu -->
+                <div class="classy-menu">
+                    <!-- close btn -->
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <!-- Nav Start -->
+                    <div class="classynav">
+                        <ul>
+                            <li><a href="#">Shop </a>
+                                <ul class="dropdown">
+                                    <li><a href="./html/shop-clothing.html">Clothing</a></li>
+                                    <li><a href="./html/shop-shoes.html">Shoes</a></li>
+                                    <li><a href="./html/shop-watch.html">Watch</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="./html/contact.html">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./html/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Nav End -->
+                </div>
+            </nav>
+
+            <!-- Header Meta Data -->
+            <div class="header-meta d-flex clearfix justify-content-end">
+                <!-- Search Area -->
+                <div class="search-area">
+                    <form action="#" method="post">
+                        <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <!-- User Login Info -->
+                <div class="user-login-info">
+                    <a href="./html/login.html"><img src="img/core-img/user.svg" alt=""></a>
+                </div>
+                <!-- Cart Area -->
+                <div class="cart-area">
+                    <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>0</span></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Right Side Cart Area ##### -->
+    <div class="cart-bg-overlay"></div>
+
+    <div class="right-side-cart-area">
+
+        <!-- Cart Button -->
+        <div class="cart-button">
+            <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>0</span></a>
+        </div>
+
+        <div class="cart-content d-flex">
+
+            <!-- Cart List Area -->
+
+            <!-- Cart Summary -->
+            <div class="cart-amount-summary">
+
+                <h2>Summary</h2>
+                <ul class="summary-table">
+                    <li><span>subtotal:</span> <span>$0</span></li>
+                    <li><span>delivery:</span> <span>Free</span></li>
+                    <li><span>discount:</span> <span>0%</span></li>
+                    <li><span>total:</span> <span>0</span></li>
+                </ul>
+                <div class="checkout-btn mt-100">
+                    <a href="./html/checkout.html" class="btn essence-btn">check out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Right Side Cart End ##### -->
+
+    <!-- home section start -->
+    <section id="home">
+        <div class="home-slide">
+            <div class="slide">
+                <div class="content text-center text-md-left pl-md-5 ml-md-5">
+                    <h1>nike's shoe</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero placeat impedit distinctio
+                        dolorum, accusamus neque minima fuga eveniet beatae quam necessitatibus laudantium explicabo?
+                        Possimus, nesciunt sed. Atque, unde reiciendis!</p>
+                    <a href="#"><button>More </button></a>
+                </div>
+                <div class="image">
+                    <img src="./img/bg-img/shoe1.png" alt="" style="transform:rotate(35deg);filter: drop-shadow(0 0 8px #4b4844);">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- home section end -->
+    <!-- ##### Top Catagory Area Start ##### -->
+    <div class="top_catagory_area section-padding-80 clearfix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Single Catagory -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img"
+                        style="background-image: url(./img/products-img/clothing.png);">
+                        <div class="catagory-content">
+                            <a href="./html/shop-clothing.html">Clothing</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Catagory -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img"
+                        style="background-image: url(./img/products-img/shoe3.png);">
+                        <div class="catagory-content">
+                            <a href="./html/shop-shoes.html">Shoes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Catagory -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img"
+                        style="background-image: url(./img/products-img/watch2.png);">
+                        <div class="catagory-content">
+                            <a href="#">Watch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Catagory Area End ##### -->
+
+    <!-- ##### CTA Area Start ##### -->
+    <div class="cta-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content bg-img background-overlay"
+                        style="background-image: url(img/bg-img/bg-5.jpg);">
+                        <div class="h-100 d-flex align-items-center justify-content-end">
+                            <div class="cta--text">
+                                <h6>-30%</h6>
+                                <h2>Big Sale</h2>
+                                <a href="#" class="btn essence-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### CTA Area End ##### -->
+
+    <!-- ##### New Arrivals Area Start ##### -->
+    <section class="new_arrivals_area section-padding-80 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Popular Products</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="popular-products-slides owl-carousel">
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <a href="./html/single-product-details-apple1.html">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./img/products-img/watch2.png" alt="">
+                                    <!-- Favourite -->
+                                    <div class="product-favourite">
+                                        <a href="#" class="favme fa fa-heart"></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    <span>Apple</span>
+                                    <a href="single-product-details.html">
+                                        <h6>Apple watch</h6>
+                                    </a>
+                                    <div class="title-sub">
+                                        <span class="product-price">$80.00</span>
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <a href="./html/single-product-details.html">
+                                <div class="product-img">
+                                    <img src="./img/products-img/shoe3.png" alt="">
+                                    <!-- Favourite -->
+                                    <div class="product-favourite">
+                                        <a href="#" class="favme fa fa-heart"></a>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>Adidas</span>
+                                <a href="./html/single-product-details.html">
+                                    <h6>Adidas shoes</h6>
+                                </a>
+                                <div class="title-sub">
+                                    <span class="product-price">$80.00</span>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <a href="./html/single-product-details-apple2.html">
+                                <div class="product-img">
+                                    <img src="./img/products-img/watch3.png" alt="">
+                                    <!-- Product Badge -->
+                                    <div class="product-badge offer-badge">
+                                        <span>-30%</span>
+                                    </div>
+                                    <!-- Favourite -->
+                                    <div class="product-favourite">
+                                        <a href="#" class="favme fa fa-heart"></a>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>Apple</span>
+                                <a href="single-product-details.html">
+                                    <h6>Apple watch</h6>
+                                </a>
+                                <div class="title-sub">
+                                    <span class="product-price"><span class="old-price" style="text-decoration: line-through;">$75.00</span> $55.00</span>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <a href="./html/single-product-details-shoes.html">
+                                <div class="product-img">
+                                    <img src="./img/products-img/shoe5.png" alt="">
+                                    <!-- Product Badge -->
+                                    <div class="product-badge new-badge">
+                                        <span>New</span>
+                                    </div>
+
+                                    <!-- Favourite -->
+                                    <div class="product-favourite">
+                                        <a href="#" class="favme fa fa-heart"></a>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>Adidas</span>
+                                <a href="single-product-details.html">
+                                    <h6>Adidas yellow shoes</h6>
+                                </a>
+                                <div class="title-sub">
+                                    <span class="product-price"><span class="old-price" style="text-decoration: line-through;">$75.00</span> $55.00</span>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### New Arrivals Area End ##### -->
+
+    <!-- ##### Brands Area Start ##### -->
+    <div class="brands-area d-flex align-items-center justify-content-between">
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand1.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand2.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand3.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand4.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand5.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand6.png" alt="">
+        </div>
+    </div>
+    <!-- ##### Brands Area End ##### -->
+
+    <section id="newsletter">
+
+        <h1>newsletter</h1>
+        <p>subscribe us for latest updates</p>
+        <input type="text" placeholder="subscribe"><br>
+        <input type="submit" value="subscribe">
+
+    </section>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single_widget_area d-flex mb-30">
+                        <!-- Logo -->
+                        <div class="footer-logo mr-50">
+                            <i class="fas fa-shopping-bag"></i>
+                            <h1>Shopping</h1>
+                        </div>
+                        <!-- Footer Menu -->
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single_widget_area mb-30">
+                        <ul class="footer_widget_menu">
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Shipping and Delivery</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <div class="credit text-center" style="color: white;">&copy; copyright @ 2020 by
+                        <span>Shopping</span></div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Classy Nav js -->
+    <script src="js/classy-nav.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
